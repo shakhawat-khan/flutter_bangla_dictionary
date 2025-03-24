@@ -4,8 +4,8 @@ import 'package:flutter/services.dart';
 class FlutterBanglaDictionary {
   static Future<String?> searchWord(String searchWord) async {
     // Load the JSON file
-    final String response =
-        await rootBundle.loadString('assets/word/E2Bdatabase.json');
+    final String response = await rootBundle.loadString(
+        'packages/flutter_bangla_dictionary/assets/word/E2Bdatabase.json');
     final List<dynamic> dictionary = json.decode(response);
 
     // Search for the English word
