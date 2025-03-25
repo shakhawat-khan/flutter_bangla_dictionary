@@ -7,6 +7,8 @@ environment:
   sdk: '>=3.4.1 <4.0.0'
   flutter: ">=1.17.0"
 
+license: MIT
+
 dependencies:
   flutter:
     sdk: flutter
